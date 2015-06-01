@@ -15,7 +15,11 @@ a {
 
   a:hover {
     text-decoration: none;
-    color: #D1E0FF;
+    color: azure;
+  }
+.projects a:hover {
+    text-decoration: none;
+    color: #CC0052 ;
   }
 
 .name{
@@ -38,16 +42,20 @@ a {
 float: right;
 }
 .top-menu-div .menu-item:hover{
-    color: #606c71;
+    color: #CC0052;
     }
-
+p.simple-text{
+    text-align: center;
+    font-size: 20px;
+    #color: cornflowerblue;
+}
 .content{
     background-color: beige;
     position: absolute;
     top:50%;
     margin-top: -110px;
     width: 100%;
-}
+    }
 
 .greeting{
     margin: 0 auto;
@@ -62,6 +70,10 @@ float: right;
     bottom: 0;
 }
 .connections{
+    list-style-type: none;
+    text-align: center;
+    }
+.projects{
     list-style-type: none;
     text-align: center;
     }
@@ -100,6 +112,21 @@ li{
     content: "\f08c";
     font-size: 40px;
     }
+.icon-nad:before{
+font-family: FontAwesome;
+content: "\f185"; 
+font-size: 40px;
+}
+.icon-ask:before{
+font-family: FontAwesome;
+content: "\f075"; 
+font-size: 40px;
+}
+.icon-blog:before{
+font-family: FontAwesome;
+content: "\f0ca"; 
+font-size: 40px;
+}
 
 .btn {
   display: inline-block;
