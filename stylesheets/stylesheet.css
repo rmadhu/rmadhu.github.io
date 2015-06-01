@@ -9,6 +9,63 @@ body {
   font-size: 20px;
   line-height: 1.5;
   color: #606c71; }
+
+[class*='grid-'] {
+  float: left;
+  width: 25%;
+}
+.grid{
+    background-color: beige;
+    position: absolute;
+    top:15%;
+    margin-top: 10px;
+    width: 100%;
+    }
+.grid li{
+   padding: 0px;
+   display: block;
+
+}
+h4{
+    text-align: center;
+    #color: #CC0052;
+}
+
+.icon-circ:before{
+     #color: aqua;
+    font-family: FontAwesome;
+    content: "\f10c";
+    font-size: 10px;
+}
+.icon-exp:before{
+     #color: aqua;
+    font-family: FontAwesome;
+    content: "\f0b1";
+    font-size: 20px;
+}
+.icon-edu:before{
+     #color: aqua;
+    font-family: FontAwesome;
+    content: "\f091";
+    font-size: 20px;
+}
+.icon-skills:before{
+     #color: aqua;
+    font-family: FontAwesome;
+    content: "\f006";
+    font-size: 20px;
+}
+.icon-comm:before{
+     #color: aqua;
+    font-family: FontAwesome;
+    content: "\f0ac";
+    font-size: 20px;
+}
+.grid-25 a:hover {
+    text-decoration: none;
+    color: #6699FF;
+  }
+
 a {
   color: #6699FF;
   text-decoration: none; }
@@ -32,6 +89,7 @@ a {
     text-align: left;
     margin-left: 40px;
     float: left;
+    text-decoration: underline;
 }
 .top-nav{
     position: fixed;
